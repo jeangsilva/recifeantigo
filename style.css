@@ -1,0 +1,51 @@
+body{
+    background-color: orange;
+   
+}
+
+.menu-op{
+    padding: 2%;
+}
+a:hover{
+   background-color: orange;
+   border-radius: 50px;
+   border: 1px;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+#bar-menu{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(138, 57, 0);
+    width: 105%;
+    margin: -0.5%;
+    
+}
+#title-top{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 7%;
+}
+#image-container{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#image{
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+footer {
+position: absolute;
+bottom: 0;
+background-color: rgb(138, 57, 0);
+color: #FFF;
+width: 100%;
+text-align: center;
+}
