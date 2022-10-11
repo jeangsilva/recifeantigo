@@ -6,13 +6,20 @@ body{
 .menu-op{
     padding: 2%;
 }
+
 a:hover{
    background-color: orange;
    border-radius: 50px;
    border: 1px;
     color: white;
+
 }
 a:link, a:visited, a:active{
+    font-weight: bold; /* negrito no texto */
+    -webkit-transition: 0.5s ease-in;
+    -moz-transition: 0.5s ease-in;
+    -o-transition: 0.5s ease-in;
+    transition: 0.5s ease-in;
     color: white;
     text-decoration: none;
 }
